@@ -21,7 +21,7 @@
 To get a local copy up and running follow these simple example steps.
 
 - Clone repository in your local machine 
-- git clone https://github.com/sajid-munawar/First_Microverse_Project.git
+- git clone https://github.com/sajid-munawar/Hello_Microverse.git
 - cd First_Microverse_Project
 - open `index.html` in your browser.
 
