@@ -1,0 +1,39 @@
+h1 {
+    color: crimson;
+    overflow: hidden;
+    white-space: nowrap;
+    /* margin: 0 auto;   */
+    /* letter-spacing: .15em; */
+    animation: 
+    typing 3.5s steps(40,end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+  /* margin-left: 300px; */
+  max-width: 500px
+}
+
+.slide-right h2 {
+  animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+}
